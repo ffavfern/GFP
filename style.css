@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;500;700&display=swap');
+
+:root {
+                --navbar: #6F8B51;
+                --main: #ECECEC;
+                --font: 'Mitr', sans-serif;
+}
+
+* {
+                margin: 0;
+                padding: 0;
+}
+
+body {
+                background-color: var(--main);
+                font-family: var(--font);
+}
+
+nav {
+                background-color: var(--navbar);
+                width: 100%;
+                height: 100px;
+}
+
+footer {
+                background-color: var(--navbar);
+                width: 100%;
+                height: 200px;
+}
+
+.flex {
+                display: inline-flex;
+}
+
+ul {
+                list-style: none;
+}
+
+a {
+                color: #ECECEC;
+                text-decoration: none;
+}
+
+.head-cat-footer {
+                border-left: #ECECEC solid 5px;
+
+}
+
+.page-link {
+                background-color: #ECECEC !important;
+                color: var(--navbar) !important;
+                border-color: #6F8B51 !important;
+}
+
+.page-link:hover {
+                background-color: var(--navbar) !important;
+                color: #ECECEC !important;
+}
+
+.title {
+                
+}
